@@ -5,3 +5,10 @@ obj/
 *.suo
 *.db
 *.log
+# Temporary workbook analysis scripts
+temp_*.py
+inspect_*.py
+dump_*.py
+*.py
+.continue/
+*.yaml
