@@ -1,1 +1,342 @@
-[]
+[
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "DAILMER -HR (CAMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "GLOBAL VELCHERY, VEPPERY, VADODRA,VELLORE (CAMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TAGROS - CUDDALORE (HARD WARE) (CAMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "VITP PRIVATE LIMITED- CAPITALAND-HYDERABAD (CAMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "ROYAL ENFIELD (AMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "KONE ELEVATOR INDIA P.LTD (CAMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "DAILMER - SECURITY"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "ICF- AMS"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "IIT, MADRAS\n(KELTRON)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "CHPT - HEP-EXTENTION\n(KELTRON)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "CHPT - CAMC QR AND  RFID READERS\n(KELTRON)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "CHPT AMS UPGRADADATION OF EXISTING AMS SYSTEMS\n(KELTRON)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "ASCENDAS IT PARK (CHENNAI) LIMITED-CAPITAL LAND - CHENNAI"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "DAILMER -HR (CLMS)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "ACCENTAS- CAPITALAND-BANGALORE"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TVS TYRES MADURAI"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "DG VAISHNAV COLLEGE"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TAGROS- CUDDALORE,DAHEJ GUJARAT, ANKLESHWAR, PANOLI & MM NAGAR   (ATRACK)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TAGROS -  DAHEJ GUJARAT"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TAGROS -  ANKLESHWAR"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TAGROS -  PANOLI"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TAGROS -  MM NAGAR"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "CYBERTRONICS SECURITY AUTOMATION INTEGRATORS PVT LIT AMC (WTC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "SCIENCE CITY (CAMC) KOLKATA"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TATA COMMUNICATIONS (CAMC)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "TATA COMMUNICATIONS (BMS)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "DAIMLER DICV _ CCTV"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "VIKRAMSOLAR KANCHIPURAM"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "KALSI BUILDCON PRIVATE LIMITED( PATNA)"
+  },
+  {
+    "SourceReference": "Duplicate customer in workbook import batch",
+    "Reason": "KERALA STATE ELECTRONICS DEVELOPMENT CORPORTION"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "3 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "7 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "11 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "15 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "19 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "23 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "27 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "31 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "35 -> Hfly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "40 -> Hfly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "44 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "48 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "57 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "69 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "77 -> Qtrly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "81 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "85 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "89 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "93 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "97 -> Full in advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "101 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "105 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "109 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "113 -> Qtrly"
+  },
+  {
+    "SourceReference": "Contract period may be invalid at AMC 2026-2027",
+    "Reason": "117"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "117 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2026-2027",
+    "Reason": "121 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "3 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "7 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "11 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "15 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "19 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "23 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "27 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "31 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "35 -> Hfly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "40 -> Hfly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "44 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "48 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "61 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "73 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "81 -> Qtrly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "85 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "89 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "93 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "97 -> Halfly Advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "101 -> Full in advance"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "105 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "109 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "113 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "117 -> Qtrly"
+  },
+  {
+    "SourceReference": "Contract period may be invalid at AMC 2025-2026 (2)",
+    "Reason": "121"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "121 -> Hfly-1"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "125 -> Qtrly"
+  },
+  {
+    "SourceReference": "Invalid PM cycle at AMC 2025-2026 (2)",
+    "Reason": "129 -> Qtrly"
+  }
+]

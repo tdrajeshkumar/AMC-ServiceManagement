@@ -19,9 +19,9 @@ public class ImportRunner
         _excelImportService = excelImportService;
     }
 
-    public async Task<ImportExecutionReport> ExecuteAsync(CancellationToken cancellationToken = default)
+    public async Task<ImportExecutionReport> ExecuteAsync(string? workbookPath = null, CancellationToken cancellationToken = default)
     {
-        var workbookPath = ResolveWorkbookPath();
+        workbookPath = ResolveWorkbookPath(workbookPath);
         var analysis = _workbookAnalyzer.Analyze(workbookPath);
 
         var annualSheets = analysis.Sheets.Where(x => x.IsAnnualPlanningSheet).ToList();
@@ -39,8 +39,10 @@ public class ImportRunner
             CustomersInserted = EstimateCustomersInserted(importResult),
             ContractsInserted = EstimateContractsInserted(importResult),
             BillingEventsInserted = 0,
-            PMRecordsInserted = 0,
-            InvoiceRecordsInserted = 0,
+            PMVisitsInserted = 0,
+            InvoicesInserted = 0,
+            DuplicateCustomersSkipped = importResult.Messages.Count(m => m.Contains("Duplicate customer", StringComparison.OrdinalIgnoreCase)),
+            DuplicateInvoicesSkipped = importResult.Messages.Count(m => m.Contains("Duplicate invoice", StringComparison.OrdinalIgnoreCase)),
             Errors = importResult.Errors,
             Warnings = importResult.Warnings
         };
@@ -58,7 +60,6 @@ public class ImportRunner
 
     private static int EstimateCustomersInserted(ImportResult result)
     {
-        // Current ImportResult aggregates inserted values; keep best-effort split for reporting.
         return result.Inserted > 0 ? Math.Max(1, result.Inserted / 2) : 0;
     }
 
@@ -92,15 +93,16 @@ public class ImportRunner
 Workbook: `{report.WorkbookPath}`
 
 ## Summary
-- Sheet count: {report.SheetCount}
-- Detected annual sheets: {report.DetectedAnnualSheets.Count}
-- Detected customer sheets: {report.DetectedCustomerSheets.Count}
-- Total rows processed: {report.TotalRowsProcessed}
+- Number of sheets found: {report.SheetCount}
+- Annual sheets detected: {report.DetectedAnnualSheets.Count}
+- Customer sheets detected: {report.DetectedCustomerSheets.Count}
 - Customers inserted: {report.CustomersInserted}
 - Contracts inserted: {report.ContractsInserted}
 - BillingEvents inserted: {report.BillingEventsInserted}
-- PM records inserted: {report.PMRecordsInserted}
-- Invoice records inserted: {report.InvoiceRecordsInserted}
+- PMVisits inserted: {report.PMVisitsInserted}
+- Invoices inserted: {report.InvoicesInserted}
+- Duplicate customers skipped: {report.DuplicateCustomersSkipped}
+- Duplicate invoices skipped: {report.DuplicateInvoicesSkipped}
 - Errors: {report.Errors}
 - Warnings: {report.Warnings}
 
@@ -109,17 +111,12 @@ Workbook: `{report.WorkbookPath}`
 
 ## Detected Customer Sheets
 {string.Join(Environment.NewLine, report.DetectedCustomerSheets.Select(s => $"- {s}"))}
-
-## Validation Checks Included
-- Merged range expansion handling (through annual sheet customer carry-forward and analyzer merged-range detection)
-- Duplicate customer handling (batch + DB checks)
-- Duplicate invoice handling (DB duplicate normalized invoice checks)
-- PM cycle parsing validation
 """;
     }
 
-    private static string ResolveWorkbookPath()
+    private static string ResolveWorkbookPath(string? workbookPath)
     {
+        if (!string.IsNullOrWhiteSpace(workbookPath) && File.Exists(workbookPath)) return workbookPath;
         if (File.Exists(ImportConstants.PrimaryWorkbookPath)) return ImportConstants.PrimaryWorkbookPath;
         if (File.Exists(ImportConstants.FallbackWorkbookPath)) return ImportConstants.FallbackWorkbookPath;
         throw new FileNotFoundException("Workbook file not found for import run.");
@@ -142,8 +139,10 @@ public class ImportExecutionReport
     public int CustomersInserted { get; set; }
     public int ContractsInserted { get; set; }
     public int BillingEventsInserted { get; set; }
-    public int PMRecordsInserted { get; set; }
-    public int InvoiceRecordsInserted { get; set; }
+    public int PMVisitsInserted { get; set; }
+    public int InvoicesInserted { get; set; }
+    public int DuplicateCustomersSkipped { get; set; }
+    public int DuplicateInvoicesSkipped { get; set; }
     public int Errors { get; set; }
     public int Warnings { get; set; }
 }
