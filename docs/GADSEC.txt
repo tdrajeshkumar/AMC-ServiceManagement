@@ -1,0 +1,11 @@
+Row 1 Col 6 = Gadsec
+Row 1 Col 7 = PLPL
+Row 2 Col 4 = First year CAMC
+Row 2 Col 5 = August 2026 to July 2027
+Row 2 Col 6 = 594638
+Row 2 Col 7 = 555736.4485981308
+Row 3 Col 4 = Second year CAMC
+Row 3 Col 5 = August 2027 to July 2028
+Row 3 Col 6 = 693745
+Row 3 Col 7 = 648359.8130841121
+Row 4 Col 7 = 1204096.261682243
